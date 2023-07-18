@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  go-challenge:
+    build:
+      context: ./
+    image: raphaelbachega/go-challenge:prod
+    container_name: go-challenge
+    tty: true
